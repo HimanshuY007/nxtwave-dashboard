@@ -1,8 +1,14 @@
-# React + Vite
+<h2 style="text-align:center"> <img src="/public/nxtwave_logo.svg" width="24"/> Resource Management Admin Portal  </h2>
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+<img src="src\assets\vite.png" width="36" height="36"/><img src="src\assets\react.png" width="36" height="36"/><img src="src\assets\tailwind.png" width="36" height="36"/><img src="src\assets\react_icons.svg" width="36" height="36"/>
 
-Currently, two official plugins are available:
+### Key points 🚀
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+- Implemented Home, Add Resource, and Login pages.
+- Enhanced responsiveness and added loading effects for a better user experience.
+- Retrieved existing resource data via API.
+- Integrated forms with validation and indicated API response status.
+- Implemented tag filters and a debounced search feature for efficient data handling.
+- Enabled logout by clicking on the profile in the dashboard.
+
+**Try out the [demo](https://main--nxtwave-dashboard.netlify.app/login)🔥**
