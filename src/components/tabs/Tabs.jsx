@@ -8,7 +8,7 @@ const Tabs = () => {
     setTab(e.target.innerText);
   };
   return (
-    <div className="w-1/2 m-auto my-10 flex bg-gray-100/60 rounded border-solid border-[#D7DFE9] border overflow-hidden">
+    <div className="w-1/2 m-auto my-10 flex max-sm:flex-col bg-gray-100/60 rounded border-solid border-[#D7DFE9] border overflow-hidden">
       {sections.map((ele, i) => (
         <Tab
           key={i}
