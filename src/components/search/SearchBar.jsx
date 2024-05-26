@@ -1,7 +1,7 @@
 import { IoSearchSharp } from "react-icons/io5";
 import { useSearchContext } from "../../context/SearchContextProvider";
 const SearchBar = () => {
-  const { updateQuery } = useSearchContext();
+  const { query, updateQuery } = useSearchContext();
   return (
     <div className="w-3/4 m-auto border border-[#D7DFE9] rounded bg-white">
       <form>
@@ -12,6 +12,7 @@ const SearchBar = () => {
           <input
             type="text"
             placeholder="Search"
+            defaultValue={query}
             className="grow placeholder:text-[#7E858E/60] placeholder:font-extralight outline-none"
             onChange={(e) => updateQuery(e.target.value)}
           />
