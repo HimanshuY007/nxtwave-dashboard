@@ -11,4 +11,4 @@
 - Implemented tag filters and a debounced search feature for efficient data handling.
 - Enabled logout by clicking on the profile in the dashboard.
 
-**Try out the [demo](https://main--nxtwave-dashboard.netlify.app/login)🔥**
+**Try out the [demo](https://nxtwave-dashboard.netlify.app/)🔥**
